@@ -5,7 +5,7 @@ WORKDIR /tmp
 
 # 安装必要插件
 RUN set -x;\
-apk add --no-cache libffi libheif-dev libde265-dev git;
+apk add --no-cache gcc libffi libheif-dev libde265-dev git;
 
 # 安装pyheif
 RUN set -x;\
